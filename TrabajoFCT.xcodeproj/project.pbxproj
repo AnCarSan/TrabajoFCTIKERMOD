@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D16DBAD299CDF7F00DCC04A /* PruebaListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D16DBAC299CDF7F00DCC04A /* PruebaListaViewController.swift */; };
+		0D16DBAF299E2FF800DCC04A /* PlayerViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D16DBAE299E2FF800DCC04A /* PlayerViewVC.swift */; };
 		0D416DDE2993B38E001C48D0 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D416DDD2993B38E001C48D0 /* TabBarVC.swift */; };
 		0D416DE02993C9CE001C48D0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D416DDF2993C9CE001C48D0 /* HomeVC.swift */; };
 		0D5313D2299246450033998E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5313D1299246450033998E /* AppDelegate.swift */; };
@@ -32,7 +34,18 @@
 		0D53141B29926D390033998E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D53140F29926D390033998E /* Roboto-ThinItalic.ttf */; };
 		0D53141D2992736A0033998E /* ViewControlerPerfilPersonal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D53141C2992736A0033998E /* ViewControlerPerfilPersonal.swift */; };
 		0D53141F299289750033998E /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D53141E299289750033998E /* ViewControllerRegistro.swift */; };
+		0D626916299F719900A849EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D626915299F719900A849EA /* User.swift */; };
+		0D626918299F72B000A849EA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D626917299F72B000A849EA /* DataManager.swift */; };
 		0D71239E29952BAC00F1642D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D71239D29952BAC00F1642D /* CellView.swift */; };
+		0DE0241C29A64596005F0C4D /* Musica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241B29A64596005F0C4D /* Musica.swift */; };
+		0DE0241E29A64816005F0C4D /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241D29A64816005F0C4D /* Serie.swift */; };
+		0DE0242029A648B9005F0C4D /* Pelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241F29A648B9005F0C4D /* Pelicula.swift */; };
+		0DE0242229A64A61005F0C4D /* Cantante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0242129A64A61005F0C4D /* Cantante.swift */; };
+		0DE0242429A64AD9005F0C4D /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0242329A64AD9005F0C4D /* Grupo.swift */; };
+		0DE0242629A64B70005F0C4D /* Reparto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0242529A64B70005F0C4D /* Reparto.swift */; };
+		75642E6818690FE83688D643 /* Pods_TrabajoFCTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B990A943CC9BF29650B0AB /* Pods_TrabajoFCTTests.framework */; };
+		C7906695971A5E8C6E861798 /* Pods_TrabajoFCT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCE364933F7E4CE03FE83E9 /* Pods_TrabajoFCT.framework */; };
+		D29C7220A02814C33A9D36EE /* Pods_TrabajoFCT_TrabajoFCTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9A42019DB5471981A9A891 /* Pods_TrabajoFCT_TrabajoFCTUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D16DBAC299CDF7F00DCC04A /* PruebaListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaListaViewController.swift; sourceTree = "<group>"; };
+		0D16DBAE299E2FF800DCC04A /* PlayerViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewVC.swift; sourceTree = "<group>"; };
 		0D416DDD2993B38E001C48D0 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		0D416DDF2993C9CE001C48D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		0D5313CE299246450033998E /* TrabajoFCT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabajoFCT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,7 +97,24 @@
 		0D53140F29926D390033998E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		0D53141C2992736A0033998E /* ViewControlerPerfilPersonal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlerPerfilPersonal.swift; sourceTree = "<group>"; };
 		0D53141E299289750033998E /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
+		0D626915299F719900A849EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0D626917299F72B000A849EA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0D71239D29952BAC00F1642D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		0DE0241B29A64596005F0C4D /* Musica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musica.swift; sourceTree = "<group>"; };
+		0DE0241D29A64816005F0C4D /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		0DE0241F29A648B9005F0C4D /* Pelicula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelicula.swift; sourceTree = "<group>"; };
+		0DE0242129A64A61005F0C4D /* Cantante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cantante.swift; sourceTree = "<group>"; };
+		0DE0242329A64AD9005F0C4D /* Grupo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grupo.swift; sourceTree = "<group>"; };
+		0DE0242529A64B70005F0C4D /* Reparto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reparto.swift; sourceTree = "<group>"; };
+		13B990A943CC9BF29650B0AB /* Pods_TrabajoFCTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrabajoFCTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE800195348E6D9D1A8A7D1 /* Pods-TrabajoFCT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabajoFCT.debug.xcconfig"; path = "Target Support Files/Pods-TrabajoFCT/Pods-TrabajoFCT.debug.xcconfig"; sourceTree = "<group>"; };
+		431D8ABB8221CBFF9FBC49BE /* Pods-TrabajoFCT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabajoFCT.release.xcconfig"; path = "Target Support Files/Pods-TrabajoFCT/Pods-TrabajoFCT.release.xcconfig"; sourceTree = "<group>"; };
+		4CCE364933F7E4CE03FE83E9 /* Pods_TrabajoFCT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrabajoFCT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6FD19411033885A20D2DF1 /* Pods-TrabajoFCT-TrabajoFCTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabajoFCT-TrabajoFCTUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrabajoFCT-TrabajoFCTUITests/Pods-TrabajoFCT-TrabajoFCTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A12750860DB11D1BE7B99F32 /* Pods-TrabajoFCTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabajoFCTTests.debug.xcconfig"; path = "Target Support Files/Pods-TrabajoFCTTests/Pods-TrabajoFCTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9A42019DB5471981A9A891 /* Pods_TrabajoFCT_TrabajoFCTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrabajoFCT_TrabajoFCTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF64DBE31DA85522192C4160 /* Pods-TrabajoFCT-TrabajoFCTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabajoFCT-TrabajoFCTUITests.release.xcconfig"; path = "Target Support Files/Pods-TrabajoFCT-TrabajoFCTUITests/Pods-TrabajoFCT-TrabajoFCTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E28ECEC037724F6FCD581152 /* Pods-TrabajoFCTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrabajoFCTTests.release.xcconfig"; path = "Target Support Files/Pods-TrabajoFCTTests/Pods-TrabajoFCTTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7906695971A5E8C6E861798 /* Pods_TrabajoFCT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75642E6818690FE83688D643 /* Pods_TrabajoFCTTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D29C7220A02814C33A9D36EE /* Pods_TrabajoFCT_TrabajoFCTUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +152,8 @@
 				0D5313E7299246470033998E /* TrabajoFCTTests */,
 				0D5313F1299246480033998E /* TrabajoFCTUITests */,
 				0D5313CF299246450033998E /* Products */,
+				B25F8230D332DD8DCF1C1EF0 /* Pods */,
+				F6A5F044437F6B2B134D6B66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,16 +173,26 @@
 				0D53140329926D1D0033998E /* Fonts */,
 				0D5313D1299246450033998E /* AppDelegate.swift */,
 				0D5313D3299246450033998E /* SceneDelegate.swift */,
+				0D626917299F72B000A849EA /* DataManager.swift */,
+				0D626915299F719900A849EA /* User.swift */,
+				0DE0241B29A64596005F0C4D /* Musica.swift */,
+				0DE0241D29A64816005F0C4D /* Serie.swift */,
+				0DE0241F29A648B9005F0C4D /* Pelicula.swift */,
+				0DE0242129A64A61005F0C4D /* Cantante.swift */,
+				0DE0242329A64AD9005F0C4D /* Grupo.swift */,
+				0DE0242529A64B70005F0C4D /* Reparto.swift */,
+				0D5313D7299246450033998E /* Main.storyboard */,
 				0D5313D5299246450033998E /* ViewController.swift */,
 				0D416DDD2993B38E001C48D0 /* TabBarVC.swift */,
-				0D5313D7299246450033998E /* Main.storyboard */,
+				0D16DBAE299E2FF800DCC04A /* PlayerViewVC.swift */,
+				0D16DBAC299CDF7F00DCC04A /* PruebaListaViewController.swift */,
 				0D53141C2992736A0033998E /* ViewControlerPerfilPersonal.swift */,
 				0D416DDF2993C9CE001C48D0 /* HomeVC.swift */,
 				0D53141E299289750033998E /* ViewControllerRegistro.swift */,
+				0D71239D29952BAC00F1642D /* CellView.swift */,
 				0D5313DA299246470033998E /* Assets.xcassets */,
 				0D5313DC299246470033998E /* LaunchScreen.storyboard */,
 				0D5313DF299246470033998E /* Info.plist */,
-				0D71239D29952BAC00F1642D /* CellView.swift */,
 			);
 			path = TrabajoFCT;
 			sourceTree = "<group>";
@@ -186,6 +233,29 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		B25F8230D332DD8DCF1C1EF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EE800195348E6D9D1A8A7D1 /* Pods-TrabajoFCT.debug.xcconfig */,
+				431D8ABB8221CBFF9FBC49BE /* Pods-TrabajoFCT.release.xcconfig */,
+				9B6FD19411033885A20D2DF1 /* Pods-TrabajoFCT-TrabajoFCTUITests.debug.xcconfig */,
+				BF64DBE31DA85522192C4160 /* Pods-TrabajoFCT-TrabajoFCTUITests.release.xcconfig */,
+				A12750860DB11D1BE7B99F32 /* Pods-TrabajoFCTTests.debug.xcconfig */,
+				E28ECEC037724F6FCD581152 /* Pods-TrabajoFCTTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6A5F044437F6B2B134D6B66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE364933F7E4CE03FE83E9 /* Pods_TrabajoFCT.framework */,
+				AB9A42019DB5471981A9A891 /* Pods_TrabajoFCT_TrabajoFCTUITests.framework */,
+				13B990A943CC9BF29650B0AB /* Pods_TrabajoFCTTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D5313F8299246480033998E /* Build configuration list for PBXNativeTarget "TrabajoFCT" */;
 			buildPhases = (
+				8CF9D5777AEDBEF63CBC0887 /* [CP] Check Pods Manifest.lock */,
 				0D5313CA299246450033998E /* Sources */,
 				0D5313CB299246450033998E /* Frameworks */,
 				0D5313CC299246450033998E /* Resources */,
+				ACEA041654A6E0F5CB1969CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D5313FB299246480033998E /* Build configuration list for PBXNativeTarget "TrabajoFCTTests" */;
 			buildPhases = (
+				347E6FFF4A32270B5828DABC /* [CP] Check Pods Manifest.lock */,
 				0D5313E0299246470033998E /* Sources */,
 				0D5313E1299246470033998E /* Frameworks */,
 				0D5313E2299246470033998E /* Resources */,
@@ -228,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D5313FE299246480033998E /* Build configuration list for PBXNativeTarget "TrabajoFCTUITests" */;
 			buildPhases = (
+				65D5FF0D66E801C22FBEC90B /* [CP] Check Pods Manifest.lock */,
 				0D5313EA299246480033998E /* Sources */,
 				0D5313EB299246480033998E /* Frameworks */,
 				0D5313EC299246480033998E /* Resources */,
+				421ACF5ADFC479A9C02A12A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,19 +399,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		347E6FFF4A32270B5828DABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrabajoFCTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		421ACF5ADFC479A9C02A12A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrabajoFCT-TrabajoFCTUITests/Pods-TrabajoFCT-TrabajoFCTUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrabajoFCT-TrabajoFCTUITests/Pods-TrabajoFCT-TrabajoFCTUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrabajoFCT-TrabajoFCTUITests/Pods-TrabajoFCT-TrabajoFCTUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D5FF0D66E801C22FBEC90B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrabajoFCT-TrabajoFCTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF9D5777AEDBEF63CBC0887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrabajoFCT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACEA041654A6E0F5CB1969CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrabajoFCT/Pods-TrabajoFCT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrabajoFCT/Pods-TrabajoFCT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrabajoFCT/Pods-TrabajoFCT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D5313CA299246450033998E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0D5313D6299246450033998E /* ViewController.swift in Sources */,
+				0D626918299F72B000A849EA /* DataManager.swift in Sources */,
 				0D416DE02993C9CE001C48D0 /* HomeVC.swift in Sources */,
+				0DE0242029A648B9005F0C4D /* Pelicula.swift in Sources */,
 				0D53141F299289750033998E /* ViewControllerRegistro.swift in Sources */,
+				0DE0242629A64B70005F0C4D /* Reparto.swift in Sources */,
+				0DE0241E29A64816005F0C4D /* Serie.swift in Sources */,
 				0D5313D2299246450033998E /* AppDelegate.swift in Sources */,
+				0DE0242429A64AD9005F0C4D /* Grupo.swift in Sources */,
+				0DE0242229A64A61005F0C4D /* Cantante.swift in Sources */,
 				0D71239E29952BAC00F1642D /* CellView.swift in Sources */,
 				0D5313D4299246450033998E /* SceneDelegate.swift in Sources */,
 				0D416DDE2993B38E001C48D0 /* TabBarVC.swift in Sources */,
+				0D16DBAD299CDF7F00DCC04A /* PruebaListaViewController.swift in Sources */,
+				0D16DBAF299E2FF800DCC04A /* PlayerViewVC.swift in Sources */,
 				0D53141D2992736A0033998E /* ViewControlerPerfilPersonal.swift in Sources */,
+				0DE0241C29A64596005F0C4D /* Musica.swift in Sources */,
+				0D626916299F719900A849EA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +696,7 @@
 		};
 		0D5313F9299246480033998E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE800195348E6D9D1A8A7D1 /* Pods-TrabajoFCT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -535,6 +724,7 @@
 		};
 		0D5313FA299246480033998E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431D8ABB8221CBFF9FBC49BE /* Pods-TrabajoFCT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -562,6 +752,7 @@
 		};
 		0D5313FC299246480033998E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12750860DB11D1BE7B99F32 /* Pods-TrabajoFCTTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -581,6 +772,7 @@
 		};
 		0D5313FD299246480033998E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28ECEC037724F6FCD581152 /* Pods-TrabajoFCTTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -600,6 +792,7 @@
 		};
 		0D5313FF299246480033998E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6FD19411033885A20D2DF1 /* Pods-TrabajoFCT-TrabajoFCTUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,6 +810,7 @@
 		};
 		0D531400299246480033998E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF64DBE31DA85522192C4160 /* Pods-TrabajoFCT-TrabajoFCTUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

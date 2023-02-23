@@ -1,4 +1,3 @@
-
 import UIKit
 
 class ViewControllerHome: UIViewController {
@@ -19,7 +18,7 @@ class ViewControllerHome: UIViewController {
         pageView.numberOfPages = imgArr.count
         pageView.currentPage = 0
         DispatchQueue.main.async {
-            self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
+            self.timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
         }
     }
     
@@ -39,7 +38,7 @@ class ViewControllerHome: UIViewController {
         } else {
             counter = 0
             let index = IndexPath.init(item: counter, section: 0)
-            self.sliderCollectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: false)
+            self.sliderCollectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: true)
             pageView.currentPage = counter
             counter = 1
         }
