@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D16DBAD299CDF7F00DCC04A /* PruebaListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D16DBAC299CDF7F00DCC04A /* PruebaListaViewController.swift */; };
 		0D16DBAF299E2FF800DCC04A /* PlayerViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D16DBAE299E2FF800DCC04A /* PlayerViewVC.swift */; };
+		0D30A83F29B09B20000BE56E /* UsuarioElegido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D30A83E29B09B20000BE56E /* UsuarioElegido.swift */; };
 		0D416DDE2993B38E001C48D0 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D416DDD2993B38E001C48D0 /* TabBarVC.swift */; };
 		0D416DE02993C9CE001C48D0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D416DDF2993C9CE001C48D0 /* HomeVC.swift */; };
 		0D5313D2299246450033998E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5313D1299246450033998E /* AppDelegate.swift */; };
@@ -37,6 +38,10 @@
 		0D626916299F719900A849EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D626915299F719900A849EA /* User.swift */; };
 		0D626918299F72B000A849EA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D626917299F72B000A849EA /* DataManager.swift */; };
 		0D71239E29952BAC00F1642D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D71239D29952BAC00F1642D /* CellView.swift */; };
+		0D8C7EC029B1FC0700D960BC /* Aparicion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C7EBF29B1FC0700D960BC /* Aparicion.swift */; };
+		0D8C7EC229B202B300D960BC /* MusicaElegida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C7EC129B202B300D960BC /* MusicaElegida.swift */; };
+		0D8C7EC429B206E500D960BC /* BuscarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C7EC329B206E500D960BC /* BuscarViewController.swift */; };
+		0D8C7EC629B2130500D960BC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C7EC529B2130500D960BC /* CustomTableViewCell.swift */; };
 		0DE0241C29A64596005F0C4D /* Musica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241B29A64596005F0C4D /* Musica.swift */; };
 		0DE0241E29A64816005F0C4D /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241D29A64816005F0C4D /* Serie.swift */; };
 		0DE0242029A648B9005F0C4D /* Pelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241F29A648B9005F0C4D /* Pelicula.swift */; };
@@ -68,6 +73,7 @@
 /* Begin PBXFileReference section */
 		0D16DBAC299CDF7F00DCC04A /* PruebaListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaListaViewController.swift; sourceTree = "<group>"; };
 		0D16DBAE299E2FF800DCC04A /* PlayerViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewVC.swift; sourceTree = "<group>"; };
+		0D30A83E29B09B20000BE56E /* UsuarioElegido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioElegido.swift; sourceTree = "<group>"; };
 		0D416DDD2993B38E001C48D0 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		0D416DDF2993C9CE001C48D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		0D5313CE299246450033998E /* TrabajoFCT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabajoFCT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +106,10 @@
 		0D626915299F719900A849EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0D626917299F72B000A849EA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0D71239D29952BAC00F1642D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		0D8C7EBF29B1FC0700D960BC /* Aparicion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aparicion.swift; sourceTree = "<group>"; };
+		0D8C7EC129B202B300D960BC /* MusicaElegida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaElegida.swift; sourceTree = "<group>"; };
+		0D8C7EC329B206E500D960BC /* BuscarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarViewController.swift; sourceTree = "<group>"; };
+		0D8C7EC529B2130500D960BC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		0DE0241B29A64596005F0C4D /* Musica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musica.swift; sourceTree = "<group>"; };
 		0DE0241D29A64816005F0C4D /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
 		0DE0241F29A648B9005F0C4D /* Pelicula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelicula.swift; sourceTree = "<group>"; };
@@ -148,6 +158,8 @@
 		0D5313C5299246450033998E = {
 			isa = PBXGroup;
 			children = (
+				0D8C7EC529B2130500D960BC /* CustomTableViewCell.swift */,
+				0D8C7EC329B206E500D960BC /* BuscarViewController.swift */,
 				0D5313D0299246450033998E /* TrabajoFCT */,
 				0D5313E7299246470033998E /* TrabajoFCTTests */,
 				0D5313F1299246480033998E /* TrabajoFCTUITests */,
@@ -174,7 +186,10 @@
 				0D5313D1299246450033998E /* AppDelegate.swift */,
 				0D5313D3299246450033998E /* SceneDelegate.swift */,
 				0D626917299F72B000A849EA /* DataManager.swift */,
+				0D8C7EC129B202B300D960BC /* MusicaElegida.swift */,
+				0D8C7EBF29B1FC0700D960BC /* Aparicion.swift */,
 				0D626915299F719900A849EA /* User.swift */,
+				0D30A83E29B09B20000BE56E /* UsuarioElegido.swift */,
 				0DE0241B29A64596005F0C4D /* Musica.swift */,
 				0DE0241D29A64816005F0C4D /* Serie.swift */,
 				0DE0241F29A648B9005F0C4D /* Pelicula.swift */,
@@ -182,12 +197,12 @@
 				0DE0242329A64AD9005F0C4D /* Grupo.swift */,
 				0DE0242529A64B70005F0C4D /* Reparto.swift */,
 				0D5313D7299246450033998E /* Main.storyboard */,
-				0D5313D5299246450033998E /* ViewController.swift */,
 				0D416DDD2993B38E001C48D0 /* TabBarVC.swift */,
 				0D16DBAE299E2FF800DCC04A /* PlayerViewVC.swift */,
 				0D16DBAC299CDF7F00DCC04A /* PruebaListaViewController.swift */,
 				0D53141C2992736A0033998E /* ViewControlerPerfilPersonal.swift */,
 				0D416DDF2993C9CE001C48D0 /* HomeVC.swift */,
+				0D5313D5299246450033998E /* ViewController.swift */,
 				0D53141E299289750033998E /* ViewControllerRegistro.swift */,
 				0D71239D29952BAC00F1642D /* CellView.swift */,
 				0D5313DA299246470033998E /* Assets.xcassets */,
@@ -514,14 +529,19 @@
 				0D53141F299289750033998E /* ViewControllerRegistro.swift in Sources */,
 				0DE0242629A64B70005F0C4D /* Reparto.swift in Sources */,
 				0DE0241E29A64816005F0C4D /* Serie.swift in Sources */,
+				0D8C7EC629B2130500D960BC /* CustomTableViewCell.swift in Sources */,
 				0D5313D2299246450033998E /* AppDelegate.swift in Sources */,
+				0D8C7EC429B206E500D960BC /* BuscarViewController.swift in Sources */,
 				0DE0242429A64AD9005F0C4D /* Grupo.swift in Sources */,
 				0DE0242229A64A61005F0C4D /* Cantante.swift in Sources */,
 				0D71239E29952BAC00F1642D /* CellView.swift in Sources */,
 				0D5313D4299246450033998E /* SceneDelegate.swift in Sources */,
 				0D416DDE2993B38E001C48D0 /* TabBarVC.swift in Sources */,
+				0D8C7EC229B202B300D960BC /* MusicaElegida.swift in Sources */,
+				0D30A83F29B09B20000BE56E /* UsuarioElegido.swift in Sources */,
 				0D16DBAD299CDF7F00DCC04A /* PruebaListaViewController.swift in Sources */,
 				0D16DBAF299E2FF800DCC04A /* PlayerViewVC.swift in Sources */,
+				0D8C7EC029B1FC0700D960BC /* Aparicion.swift in Sources */,
 				0D53141D2992736A0033998E /* ViewControlerPerfilPersonal.swift in Sources */,
 				0DE0241C29A64596005F0C4D /* Musica.swift in Sources */,
 				0D626916299F719900A849EA /* User.swift in Sources */,

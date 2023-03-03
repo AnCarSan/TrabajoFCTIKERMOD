@@ -10,16 +10,95 @@ class ViewControllerHome: UIViewController {
                     UIImage(named:"InsideJob")
     ]
     
+    let dataManager : DataManager = DataManager()
+    
+    let url3 = URL(string: "http://127.0.0.1:5000/api/serie")
+    
+    let url5 = URL(string: "http://127.0.0.1:5000/api/pelicula")
+   
+    let url1 = URL(string: "http://127.0.0.1:5000/api/usuarioElegido")
+    
+    var nombreUsuario : String = ""
+    
+    
+    var listaSerieNombre : [String] = []
+    var listaSerieGenero : [String] = []
+    var listaSerieDirector : [String] = []
+    var listaSerieProtagonista : [String] = []
+    var listaSerieDescripcionCorta : [String] = []
+    var listaSerieTemporadas : [String] = []
+    var listaSerieEpisodios : [String] = []
+    var listaSerieFoto : [String] = []
+    var listaSerieAnoDePublicacion : [String] = []
+    var listaSerieDuracion : [String] = []
+    
+    
+    var listaPeliculaNombre : [String] = []
+    var listaPeliculaGenero : [String] = []
+    var listaPeliculaDirector : [String] = []
+    var listaPeliculaProtagonista : [String] = []
+    var listaPeliculaDesripcionCorta : [String] = []
+    var listaPeliculaFoto : [String] = []
+    var listaPeliculaAnoDePublicacion : [String] = []
+    var listaPeliculaDuracion : [String] = []
+    
+    var UserElegidoNombre: [String] = []
+    var UserElegidoId: [String] = []
+
     var timer = Timer()
     var counter = 0
     
+    func loadUsers() {
+        URLSession.shared.dataTask(with: url1!) {(data, response, error) in
+            if let response = response as? HTTPURLResponse{
+                print(response.statusCode)
+            }
+            guard let data = data,
+                  let response = response as? HTTPURLResponse,
+                  response.statusCode == 200, error == nil else {return}
+            do {
+                let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+                self.dataManager.usuarioElegido.removeAll()
+                for nombre in json as! [[String : Any]] {
+                    self.dataManager.usuarioElegido.append(UsuarioElegido(json: nombre))
+                }
+                
+                
+                self.UserElegidoId.removeAll()
+                self.UserElegidoNombre.removeAll()
+                
+                
+                
+                
+                for usuario in self.dataManager.usuarioElegido{
+                    self.UserElegidoId.append(usuario.id)
+                    self.UserElegidoNombre.append(usuario.nombre)
+                    
+                }
+                
+            } catch let errorJson {
+                print(errorJson)
+            }
+        }.resume()
+        sleep(1)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadUsers()
         pageView.numberOfPages = imgArr.count
         pageView.currentPage = 0
         DispatchQueue.main.async {
             self.timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
         }
+    }
+    
+    
+    @IBAction func botonPrueba(_ sender: Any) {
+        print(nombreUsuario)
+        print(UserElegidoId)
+        print(UserElegidoNombre)
+        
     }
     
     override func didReceiveMemoryWarning() {
