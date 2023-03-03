@@ -9,6 +9,9 @@ class Serie : Codable{
     public let foto: String
     public let anoDePublicacion: Int
     public let duracion: String
+    public let enLista: String
+    public let imagenPaisaje: String
+    
   
     
     init(json: [String: Any]) {
@@ -22,5 +25,9 @@ class Serie : Codable{
         foto = json["foto"] as? String ?? ""
         anoDePublicacion = json["anoDePublicacion"] as? Int ?? 0
         duracion = json["duracion"] as? String ?? ""
+        
+        enLista = json["favorito"] as? String ?? ""
+        
+        imagenPaisaje = json["imagenPaisaje"] as? String ?? ""
         }
 }

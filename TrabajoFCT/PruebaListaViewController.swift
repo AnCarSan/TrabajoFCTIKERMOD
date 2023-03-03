@@ -4,8 +4,10 @@ class PruebaListaViewController: UIViewController, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = table.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! CustomTableViewCell
-        cell.Titulo.text = "Hola"
-        cell.imagen.image = UIImage(named: "BreakingBadSlider")
+        cell.Titulo.text = listaMusicaNombre[indexPath.row]
+        let imageMusic = convertBase64StringToImage(imageBase64String: listaMusicaFoto[indexPath.row])
+        cell.imagen.image = imageMusic
+        cell.aparicion.text = listaMusicaDuracion[indexPath.row]
         return cell
     }
     
@@ -14,8 +16,10 @@ class PruebaListaViewController: UIViewController, UITableViewDataSource{
     }
     
     
+    @IBOutlet weak var TítuloSeriePeli: UILabel!
     @IBOutlet weak var table: UITableView!
     
+    @IBOutlet weak var ImagenPeliSerie: UIImageView!
     
     let dataManager : DataManager = DataManager()
     
@@ -102,7 +106,7 @@ class PruebaListaViewController: UIViewController, UITableViewDataSource{
                     print(errorJson)
                 }
             }.resume()
-        sleep(3)
+        sleep(2)
 
         }
 

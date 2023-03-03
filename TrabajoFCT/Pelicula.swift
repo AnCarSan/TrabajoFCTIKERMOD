@@ -7,6 +7,8 @@ class Pelicula : Codable{
     public let foto: String
     public let anoDePublicacion: String
     public let duracion: String
+    public let enLista: String
+    public let imagenPaisaje: String
   
     
     init(json: [String: Any]) {
@@ -18,5 +20,7 @@ class Pelicula : Codable{
         foto = json["foto"] as? String ?? ""
         anoDePublicacion = json["anoDePublicacion"] as? String ?? ""
         duracion = json["duracion"] as? String ?? ""
+        enLista = json["enLista"] as? String ?? ""
+        imagenPaisaje = json["imagenPaisaje"] as? String ?? ""
         }
 }

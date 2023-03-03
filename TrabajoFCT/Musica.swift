@@ -12,6 +12,7 @@ class Musica : Codable{
     public let enlaceAmazon: String
     public let enlaceItunes: String
     public let enlaceSpotify: String
+    public let favorito: String
     
     init(json: [String: Any]) {
         nombre = json["nombre"] as? String ?? ""
@@ -27,5 +28,7 @@ class Musica : Codable{
         enlaceAmazon = json["enlaceAmazon"] as? String ?? ""
         enlaceItunes = json["enlaceItunes"] as? String ?? ""
         enlaceSpotify = json["enlaceSpotify"] as? String ?? ""
+        favorito = json["favorito"] as? String ?? ""
+        
     }
 }
