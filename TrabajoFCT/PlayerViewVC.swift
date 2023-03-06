@@ -17,5 +17,9 @@ class PlayerViewVC: UIViewController {
         
     }
     
+    @IBAction func dissmis(_ sender: Any) {
+        dismiss(animated: true)
+    }
+    
 }
 

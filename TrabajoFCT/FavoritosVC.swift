@@ -1,8 +1,9 @@
 import UIKit
 
-class BuscarViewController: UIViewController {
+class FavoritosVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        
     }
-    
 }

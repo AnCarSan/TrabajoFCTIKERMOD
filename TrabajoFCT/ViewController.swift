@@ -216,7 +216,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func IniciarSesion(_ sender: Any) {
-        sleep(1)
+        sleep(1 + 1/2)
         var logIN = false
         for i in 1...listaUserNombre.count{
             if listaUserNombre[i-1] == nomUsuario.text && listaUserContrasena[i-1] == contrasenUsuario.text{

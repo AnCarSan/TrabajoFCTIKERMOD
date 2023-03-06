@@ -1,25 +1,38 @@
 import UIKit
 
-class PruebaListaViewController: UIViewController, UITableViewDataSource{
+class PruebaListaViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = table.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! CustomTableViewCell
         cell.Titulo.text = listaMusicaNombre[indexPath.row]
         let imageMusic = convertBase64StringToImage(imageBase64String: listaMusicaFoto[indexPath.row])
         cell.imagen.image = imageMusic
-        cell.aparicion.text = listaMusicaDuracion[indexPath.row]
+        cell.aparicion.text = listaMusicaAparicion[indexPath.row]
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("")
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listaMusicaNombre.count
     }
     
     
+    func convertBase64StringToImage (imageBase64String:String) -> UIImage {
+        let imageData = Data(base64Encoded: imageBase64String)
+        let image = UIImage(data: imageData!)
+        return image!
+    }
+    
     @IBOutlet weak var TítuloSeriePeli: UILabel!
     @IBOutlet weak var table: UITableView!
     
+    @IBOutlet weak var nombreMultim: UILabel!
     @IBOutlet weak var ImagenPeliSerie: UIImageView!
+    
+    var imgStr : String = ""
+    var nombreSerie : String = ""
     
     let dataManager : DataManager = DataManager()
     
@@ -42,12 +55,9 @@ class PruebaListaViewController: UIViewController, UITableViewDataSource{
      var listaMusicaEnlaceAmazon : [String] = []
      var listaMusicaEnlaceItunes : [String] = []
      var listaMusicaEnlaceSpotify : [String] = []
+    var listaMusicaFotoPaisaje : [String] = []
     
-    func convertBase64StringToImage (imageBase64String:String) -> UIImage {
-        let imageData = Data(base64Encoded: imageBase64String)
-        let image = UIImage(data: imageData!)
-        return image!
-    }
+
     
     let url1 = URL(string: "http://127.0.0.1:5000/api/musicaRapida")
     
@@ -101,6 +111,8 @@ class PruebaListaViewController: UIViewController, UITableViewDataSource{
                         self.listaMusicaEnlaceAmazon.append(musicas.enlaceAmazon)
                         self.listaMusicaEnlaceItunes.append(musicas.enlaceItunes)
                         self.listaMusicaEnlaceSpotify.append(musicas.enlaceSpotify)
+                        
+                        
                     }
                 } catch let errorJson {
                     print(errorJson)
@@ -110,10 +122,13 @@ class PruebaListaViewController: UIViewController, UITableViewDataSource{
 
         }
 
+    @IBAction func botonAtras(_ sender: Any) {
+        dismiss(animated: true)
+    }
     
     func chargeMultimedia() {
         let postUserElegido: [String : Any] = [
-            "aparicion" : "Breaking Bad",
+            "aparicion" : nombreSerie,
         ]
         
         
@@ -222,6 +237,8 @@ class PruebaListaViewController: UIViewController, UITableViewDataSource{
         chargeMultimedia()
         chargeMusica()
         loadMusic()
+        nombreMultim.text = nombreSerie
+        ImagenPeliSerie.image = convertBase64StringToImage(imageBase64String: imgStr)
         table.dataSource = self
     }
     

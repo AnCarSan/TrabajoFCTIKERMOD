@@ -38,10 +38,13 @@
 		0D626916299F719900A849EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D626915299F719900A849EA /* User.swift */; };
 		0D626918299F72B000A849EA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D626917299F72B000A849EA /* DataManager.swift */; };
 		0D71239E29952BAC00F1642D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D71239D29952BAC00F1642D /* CellView.swift */; };
+		0D7879A729B6004E0037205B /* MiListaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7879A629B6004E0037205B /* MiListaVC.swift */; };
+		0D7879A929B600C20037205B /* FavoritosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7879A829B600C20037205B /* FavoritosVC.swift */; };
 		0D8C7EC029B1FC0700D960BC /* Aparicion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C7EBF29B1FC0700D960BC /* Aparicion.swift */; };
 		0D8C7EC229B202B300D960BC /* MusicaElegida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C7EC129B202B300D960BC /* MusicaElegida.swift */; };
-		0D8C7EC429B206E500D960BC /* BuscarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C7EC329B206E500D960BC /* BuscarViewController.swift */; };
 		0D8C7EC629B2130500D960BC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C7EC529B2130500D960BC /* CustomTableViewCell.swift */; };
+		0DCC2D9B29B5E21700F7B5A8 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC2D9A29B5E21700F7B5A8 /* CustomCollectionViewCell.swift */; };
+		0DCC2D9D29B5E49E00F7B5A8 /* searchMultimediaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC2D9C29B5E49E00F7B5A8 /* searchMultimediaVC.swift */; };
 		0DE0241C29A64596005F0C4D /* Musica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241B29A64596005F0C4D /* Musica.swift */; };
 		0DE0241E29A64816005F0C4D /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241D29A64816005F0C4D /* Serie.swift */; };
 		0DE0242029A648B9005F0C4D /* Pelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0241F29A648B9005F0C4D /* Pelicula.swift */; };
@@ -106,10 +109,13 @@
 		0D626915299F719900A849EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0D626917299F72B000A849EA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0D71239D29952BAC00F1642D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		0D7879A629B6004E0037205B /* MiListaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiListaVC.swift; sourceTree = "<group>"; };
+		0D7879A829B600C20037205B /* FavoritosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosVC.swift; sourceTree = "<group>"; };
 		0D8C7EBF29B1FC0700D960BC /* Aparicion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aparicion.swift; sourceTree = "<group>"; };
 		0D8C7EC129B202B300D960BC /* MusicaElegida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaElegida.swift; sourceTree = "<group>"; };
-		0D8C7EC329B206E500D960BC /* BuscarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarViewController.swift; sourceTree = "<group>"; };
 		0D8C7EC529B2130500D960BC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		0DCC2D9A29B5E21700F7B5A8 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		0DCC2D9C29B5E49E00F7B5A8 /* searchMultimediaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchMultimediaVC.swift; sourceTree = "<group>"; };
 		0DE0241B29A64596005F0C4D /* Musica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musica.swift; sourceTree = "<group>"; };
 		0DE0241D29A64816005F0C4D /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
 		0DE0241F29A648B9005F0C4D /* Pelicula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pelicula.swift; sourceTree = "<group>"; };
@@ -158,8 +164,6 @@
 		0D5313C5299246450033998E = {
 			isa = PBXGroup;
 			children = (
-				0D8C7EC529B2130500D960BC /* CustomTableViewCell.swift */,
-				0D8C7EC329B206E500D960BC /* BuscarViewController.swift */,
 				0D5313D0299246450033998E /* TrabajoFCT */,
 				0D5313E7299246470033998E /* TrabajoFCTTests */,
 				0D5313F1299246480033998E /* TrabajoFCTUITests */,
@@ -184,6 +188,7 @@
 			children = (
 				0D53140329926D1D0033998E /* Fonts */,
 				0D5313D1299246450033998E /* AppDelegate.swift */,
+				0D8C7EC529B2130500D960BC /* CustomTableViewCell.swift */,
 				0D5313D3299246450033998E /* SceneDelegate.swift */,
 				0D626917299F72B000A849EA /* DataManager.swift */,
 				0D8C7EC129B202B300D960BC /* MusicaElegida.swift */,
@@ -197,6 +202,10 @@
 				0DE0242329A64AD9005F0C4D /* Grupo.swift */,
 				0DE0242529A64B70005F0C4D /* Reparto.swift */,
 				0D5313D7299246450033998E /* Main.storyboard */,
+				0D7879A629B6004E0037205B /* MiListaVC.swift */,
+				0D7879A829B600C20037205B /* FavoritosVC.swift */,
+				0DCC2D9A29B5E21700F7B5A8 /* CustomCollectionViewCell.swift */,
+				0DCC2D9C29B5E49E00F7B5A8 /* searchMultimediaVC.swift */,
 				0D416DDD2993B38E001C48D0 /* TabBarVC.swift */,
 				0D16DBAE299E2FF800DCC04A /* PlayerViewVC.swift */,
 				0D16DBAC299CDF7F00DCC04A /* PruebaListaViewController.swift */,
@@ -527,20 +536,23 @@
 				0D416DE02993C9CE001C48D0 /* HomeVC.swift in Sources */,
 				0DE0242029A648B9005F0C4D /* Pelicula.swift in Sources */,
 				0D53141F299289750033998E /* ViewControllerRegistro.swift in Sources */,
+				0DCC2D9D29B5E49E00F7B5A8 /* searchMultimediaVC.swift in Sources */,
 				0DE0242629A64B70005F0C4D /* Reparto.swift in Sources */,
 				0DE0241E29A64816005F0C4D /* Serie.swift in Sources */,
 				0D8C7EC629B2130500D960BC /* CustomTableViewCell.swift in Sources */,
 				0D5313D2299246450033998E /* AppDelegate.swift in Sources */,
-				0D8C7EC429B206E500D960BC /* BuscarViewController.swift in Sources */,
 				0DE0242429A64AD9005F0C4D /* Grupo.swift in Sources */,
 				0DE0242229A64A61005F0C4D /* Cantante.swift in Sources */,
 				0D71239E29952BAC00F1642D /* CellView.swift in Sources */,
 				0D5313D4299246450033998E /* SceneDelegate.swift in Sources */,
+				0D7879A729B6004E0037205B /* MiListaVC.swift in Sources */,
 				0D416DDE2993B38E001C48D0 /* TabBarVC.swift in Sources */,
 				0D8C7EC229B202B300D960BC /* MusicaElegida.swift in Sources */,
 				0D30A83F29B09B20000BE56E /* UsuarioElegido.swift in Sources */,
 				0D16DBAD299CDF7F00DCC04A /* PruebaListaViewController.swift in Sources */,
 				0D16DBAF299E2FF800DCC04A /* PlayerViewVC.swift in Sources */,
+				0D7879A929B600C20037205B /* FavoritosVC.swift in Sources */,
+				0DCC2D9B29B5E21700F7B5A8 /* CustomCollectionViewCell.swift in Sources */,
 				0D8C7EC029B1FC0700D960BC /* Aparicion.swift in Sources */,
 				0D53141D2992736A0033998E /* ViewControlerPerfilPersonal.swift in Sources */,
 				0DE0241C29A64596005F0C4D /* Musica.swift in Sources */,
